@@ -1,0 +1,67 @@
+{
+  "user_token": "XR03e35887ed6951063b23838785ba0421",
+  "results": [
+    {
+      "results": [
+        {
+          "alternatives": [
+            {
+              "timestamps": [
+                [
+                  "or",
+                  0.59,
+                  0.77
+                ],
+                [
+                  "cash",
+                  2.28,
+                  2.86
+                ],
+                [
+                  "cash",
+                  3.08,
+                  3.39
+                ],
+                [
+                  "cash",
+                  3.39,
+                  3.74
+                ]
+              ],
+              "confidence": 0.896,
+              "transcript": "or cash cash cash "
+            }
+          ],
+          "final": true
+        },
+        {
+          "alternatives": [
+            {
+              "timestamps": [
+                [
+                  "transcription",
+                  6.07,
+                  6.72
+                ],
+                [
+                  "service",
+                  6.72,
+                  7.16
+                ]
+              ],
+              "confidence": 0.927,
+              "transcript": "transcription service "
+            }
+          ],
+          "final": true
+        }
+      ],
+      "result_index": 0,
+      "warnings": [
+        "Unknown arguments: continuous."
+      ]
+    }
+  ],
+  "id": "0c8f87b4-7eec-11e8-854e-93485be2a06b",
+  "event": "recognitions.completed_with_results"
+}
