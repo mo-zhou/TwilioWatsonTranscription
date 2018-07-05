@@ -1,0 +1,6 @@
+Uses IBM Watson Add-on to transcribe conference call, voice call with Twilio and download to a Transcription.txt file locally.
+
+Install dependent packages *npm install <pkg> --save*
+Follow the useWatsonAddon.js file to start script *node useWatsonAddon.js*
+
+dataRecording.json, watsonResult are sample returns.
