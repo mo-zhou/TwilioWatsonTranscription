@@ -6,6 +6,7 @@ const bodyParser = require('body-parser')
 const axios = require('axios')
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
 const fs = require('fs')
+const PORT = process.env.PORT || 5000
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: false}))
@@ -76,5 +77,4 @@ app.post('/callback', (req, res) => {
 
    });
 
-app.listen(8001);
-console.log('the app server is running on 8001');
+app.listen(PORT, () => console.log(`listening on port ${ PORT }`));
