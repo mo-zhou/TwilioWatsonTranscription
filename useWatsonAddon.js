@@ -5,9 +5,7 @@ const express = require('express');
 const bodyParser = require('body-parser')
 const axios = require('axios')
 const VoiceResponse = require('twilio').twiml.VoiceResponse;
-const Path = require('path') 
 const fs = require('fs')
-const http = require('http')
 
 const app = express();
 app.use(bodyParser.urlencoded({extended: false}))

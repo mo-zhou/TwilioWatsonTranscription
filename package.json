@@ -1,0 +1,32 @@
+{
+  "name": "watson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "useWatsonAddon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mo-zhou/TwilioWatsonTranscription.git"
+  },
+  "keywords": [
+    "Twilio"
+  ],
+  "author": "Mo Zhou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mo-zhou/TwilioWatsonTranscription/issues"
+  },
+  "homepage": "https://github.com/mo-zhou/TwilioWatsonTranscription#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "twilio": "^3.17.5"
+  },
+  "engines": {
+    "node": "10.3.0"
+  }
+}
