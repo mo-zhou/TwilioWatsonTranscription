@@ -2,16 +2,16 @@ Uses IBM Watson Add-on to transcribe conference call, voice call with Twilio. Si
 
 Twilio Configuration - 
 Your /voice URL can be the incoming voice webhook on your purchased twilio number. That will make this number a simple recording machine with transcription service.
-The /conf URL can be the incoming voice webhook on your purchased number. That will make this number a conference line with transcription service.
-The /callback will be the Watson Callback URL on your Watson Add-on: https://www.twilio.com/console/add-ons/XB85b56ed9ce713e0ac62342b901233193
+The /conf URL can be the incoming voice webhook on your purchased number. That will make this number a conference line with automatic transcription service.
+The /callback URL will be the Watson Callback URL on your Watson Add-on: https://www.twilio.com/console/add-ons/XB85b56ed9ce713e0ac62342b901233193
+
+You can also access your recordings in your Twilio console.
 
 File options -
 1) Download to a .txt file locally (useWatsonAddon.js)
 2) Write to a Google Sheet (index.js)
    Follow this: https://www.twilio.com/blog/2017/02/an-easy-way-to-read-and-write-to-a-google-spreadsheet-in-python.html
    Initialize by sharing the email in your client_secret.json with the spreadsheet of editing access.
-   Change your spread sheet ID.
+   Change the spread sheet ID to yours.
 
-
-dataRecording.json, watsonResult are sample raw returns without parsing the JSON objects.
 
